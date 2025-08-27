@@ -1,0 +1,55 @@
+# Mous Web Vulnerability Scanner Requirements
+# Author: SayerLinux
+# Website: https://github.com/SaudiLinux
+
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+urllib3>=2.0.0
+
+# Security and vulnerability scanning
+python-nmap>=0.7.1
+paramiko>=3.3.0
+cryptography>=41.0.0
+ssl-checker>=1.0.0
+
+# Database and storage
+sqlite3
+json5>=0.9.0
+pyyaml>=6.0
+
+# Web scraping and parsing
+selenium>=4.11.0
+scrapy>=2.10.0
+fake-useragent>=1.4.0
+
+# Reporting and visualization
+jinja2>=3.1.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+openpyxl>=3.1.0
+reportlab>=4.0.0
+
+# Networking and DNS
+python-whois>=0.8.0
+dnspython>=2.4.0
+shodan>=1.29.0
+
+# Utilities
+colorama>=0.4.6
+tqdm>=4.65.0
+tabulate>=0.9.0
+click>=8.1.0
+rich>=13.0.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional integrations
+python-libnmap>=0.7.3
+psutil>=5.9.0
